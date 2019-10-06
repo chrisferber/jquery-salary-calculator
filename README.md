@@ -8,8 +8,9 @@ Your project description goes here. What problem did you solve? How did you solv
 
 Additional README details can be found [here](https://github.com/PrimeAcademy/github-finalization-assignment).
 
-- create index.html, client.js, and style.css files
-    - use html boiler plate, create title and `h1` element
+- [X] create index.html, client.js, and style.css files
+    - use html boiler plate
+    - create title and `h1` element
 - copy in jquery.js
     - link in jquery.js, style.css, and client.js files
 - use `console.log()` to test jquery.js and client.js sourced correctly

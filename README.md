@@ -47,7 +47,7 @@ Additional README details can be found [here](https://github.com/PrimeAcademy/gi
     - [X] divide by 12 to get monthly salaries
     - [X] append to DOM
 - [X] create function that turns background color of monthly costs to red if > $20,000
-- create delete button that removes employee from DOM
+- [X] create delete button that removes employee from DOM
 - in style.css change object orientation to match wireframe
 - add input values for several employees and delete several employees to test functionality
 - follow instructions to create professional README.md

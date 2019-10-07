@@ -88,7 +88,7 @@ function budgetDisplayBackgroundColor() {
 
 function handleDeleteClick() {
     console.log('Delete button has been clicked');
-    
+    $(this).parent().parent().remove();
 }
 
 // $('#FirstNameInput', '#LastNameInput', '#IDInput', '#TitleInput', '#AnnualSalaryInput' ).text('');

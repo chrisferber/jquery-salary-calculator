@@ -10,6 +10,7 @@ $(document).ready(onReady);
 function onReady() {
     console.log('in onReady');
     $('#SubmitButton').on('click', handleAddEmployeeClick);
+    $('tbody').on('click', '.deleteButton', handleDeleteClick);
 }
 
 function handleAddEmployeeClick() {
@@ -45,7 +46,7 @@ function handleAddEmployeeClick() {
     <td>${titleIn}</td>
     <td>${annualSalaryIn}</td>
     <td>
-        <button>Delete</button>
+        <button class="deleteButton">Delete</button>
     </td>
 </tr>`);
     calculateMonthlyCost(annualSalaryIn);
@@ -83,6 +84,11 @@ function budgetDisplayBackgroundColor() {
     } else {
         return 'Within budget';
     }
+}
+
+function handleDeleteClick() {
+    console.log('Delete button has been clicked');
+    
 }
 
 // $('#FirstNameInput', '#LastNameInput', '#IDInput', '#TitleInput', '#AnnualSalaryInput' ).text('');

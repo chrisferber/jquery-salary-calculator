@@ -40,7 +40,7 @@ Additional README details can be found [here](https://github.com/PrimeAcademy/gi
     - [X] console log input values
     - [X] create local object to be populated with input values
     - [X] push populated object to empty array
-    - empty input fields to placeholders after button click
+    - [X] empty input fields to placeholders after button click
     - append inputs to DOM
 - create function that adds employee salaries to get total monthly costs
     - add up all annual salaries

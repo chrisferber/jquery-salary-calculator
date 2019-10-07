@@ -43,6 +43,12 @@ function handleAddEmployeeClick() {
         <button>Delete</button>
     </td>
 </tr>`);
+calculateMonthlyCost();
+}
+
+function calculateMonthlyCost() {
+    console.log();
+    
 }
 
 // $('#FirstNameInput', '#LastNameInput', '#IDInput', '#TitleInput', '#AnnualSalaryInput' ).text('');

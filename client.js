@@ -3,6 +3,7 @@ console.log('this is our document: ', $(document));
 
 let employeeProfiles = [];
 let employeeAnnualSalaries = [];
+let monthlyCost = 0;
 
 $(document).ready(onReady);
 
@@ -28,8 +29,12 @@ function handleAddEmployeeClick() {
     console.log(`${firstNameIn}, ${lastNameIn}, ${employeeIDIn}, ${titleIn}, ${annualSalaryIn}`);
 
     employeeProfiles.push(inputProfile);
+
+    employeeAnnualSalaries.push(annualSalaryIn);
     
     console.log(employeeProfiles);
+    console.log(employeeAnnualSalaries);
+    
     
     $('.inputValues').val('');
 
@@ -47,8 +52,11 @@ calculateMonthlyCost();
 }
 
 function calculateMonthlyCost() {
-    console.log();
+    console.log('in calculateMonthlyCost');
     
+    
+    $('#MonthlyCostDisplay').val() + ('')
+    $('#MonthlyCostDisplay')
 }
 
 // $('#FirstNameInput', '#LastNameInput', '#IDInput', '#TitleInput', '#AnnualSalaryInput' ).text('');

@@ -34,7 +34,7 @@ Additional README details can be found [here](https://github.com/PrimeAcademy/gi
     - [X] add employee input values and delete button
 - [X] create empty array for employee information in javascript
 - [X] create empty array to hold total salary of all employees
-- create `OnReady` function
+- [X] create `OnReady` function
 - add event listener to Submit button
     - console log I have been clicked
     - console log input values

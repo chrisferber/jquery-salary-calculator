@@ -12,6 +12,13 @@ function onReady() {
 }
 
 function handleAddEmployeeClick() {
-    
+    console.log('Submit button has been clicked');
+    const firstName = $('#FirstNameInput').val();
+    const lastName = $('#LastNameInput').val();
+    const employeeID = $('#IDInput').val();
+    const title = $('#TitleInput').val();
+    const annualSalary = $('#AnnualSalaryInput').val();
+
+    console.log(`${firstName}, ${lastName}, ${employeeID}, ${title}, ${annualSalary}`);
     
 }

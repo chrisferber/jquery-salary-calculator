@@ -35,9 +35,9 @@ Additional README details can be found [here](https://github.com/PrimeAcademy/gi
 - [X] create empty array for employee information in javascript
 - [X] create empty array to hold total salary of all employees
 - [X] create `OnReady` function
-- add event listener to Submit button
-    - console log I have been clicked
-    - console log input values
+- [X] add event listener to Submit button
+    - [X] console log I have been clicked
+    - [X] console log input values
 - create function to push object with employee inputs to empty array
     - empty input fields to placeholders after button click
     - append inputs to DOM

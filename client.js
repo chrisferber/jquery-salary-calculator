@@ -30,12 +30,10 @@ function handleAddEmployeeClick() {
     console.log(`${firstNameIn}, ${lastNameIn}, ${employeeIDIn}, ${titleIn}, ${annualSalaryIn}`);
 
     employeeProfiles.push(inputProfile);
-
     employeeAnnualSalaries.push(Number(annualSalaryIn));
 
     console.log(employeeProfiles);
     console.log(employeeAnnualSalaries);
-
 
     $('.inputValues').val('');
 
@@ -54,27 +52,14 @@ function handleAddEmployeeClick() {
 
 function calculateMonthlyCost(annualSalaryIn) {
     console.log('in calculateMonthlyCost');
-    /*let totalCost = (Number(monthlyCost) + employeeAnnualSalaries[employeeAnnualSalaries.length - 1]);
-    let totalMonthlyCost = totalCost / 12;
-    monthlyCost = totalMonthlyCost;
-    console.log(monthlyCost);
-    console.log(totalMonthlyCost); 
-    for (let i = 0; i < employeeAnnualSalaries.length; i++) {
-        monthlyCost += employeeAnnualSalaries[i];
-        console.log(monthlyCost);
-        
-        
-    }*/
+
     monthlyCost += annualSalaryIn / 12;
     console.log(monthlyCost);
-
 
     $('#costDisplayContainer').empty('');
     $('#costDisplayContainer').append(`<h3>Total Monthly: $${Math.floor(monthlyCost)}</h3>`);
 
-
     budgetDisplayBackgroundColor();
-    // $('#MonthlyCostDisplay').text(totalCost);
 }
 
 function budgetDisplayBackgroundColor() {
@@ -90,5 +75,3 @@ function handleDeleteClick() {
     console.log('Delete button has been clicked');
     $(this).parent().parent().remove();
 }
-
-// $('#FirstNameInput', '#LastNameInput', '#IDInput', '#TitleInput', '#AnnualSalaryInput' ).text('');

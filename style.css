@@ -1,8 +1,9 @@
 body {
     background-color: aqua;
 }
-table, td {
+table {
     border: 1px solid black;
+    margin-top: 20px;
 }
 th {
     border: 1px solid black;

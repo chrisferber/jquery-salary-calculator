@@ -48,6 +48,6 @@ Additional README details can be found [here](https://github.com/PrimeAcademy/gi
     - [X] append to DOM
 - [X] create function that turns background color of monthly costs to red if > $20,000
 - [X] create delete button that removes employee from DOM
-- in style.css change object orientation to match wireframe
-- add input values for several employees and delete several employees to test functionality
+- [X] in style.css change object orientation to match wireframe
+- [X] add input values for several employees and delete several employees to test functionality
 - follow instructions to create professional README.md

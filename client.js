@@ -31,4 +31,7 @@ function handleAddEmployeeClick() {
     
     console.log(employeeProfiles);
     
+    
 }
+
+// $('#FirstNameInput', '#LastNameInput', '#IDInput', '#TitleInput', '#AnnualSalaryInput' ).text('');

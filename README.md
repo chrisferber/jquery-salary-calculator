@@ -1,13 +1,11 @@
-# Project Name
-
-[Project Instructions](./INSTRUCTIONS.md), this line may be removed once you have updated the README.md
+# jquery-salary-calculator
 
 ## Description
 
-Your project description goes here. What problem did you solve? How did you solve it?
+This application is used to take in employee information, display it in a table in the DOM, and calculate total monthly salary that is tracked on DOM from annual income.
+The annual salary input must be only numbers, no additional characters such as ($,). Employees added to the table may then be deleted by clicking the delete button for that respective table row.
 
-Additional README details can be found [here](https://github.com/PrimeAcademy/github-finalization-assignment).
-
+## Flowcharting
 - [X] create index.html, client.js, and style.css files
     - [X] use html boiler plate
     - [X] create title and `h1` element

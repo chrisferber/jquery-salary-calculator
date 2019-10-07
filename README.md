@@ -22,14 +22,14 @@ Additional README details can be found [here](https://github.com/PrimeAcademy/gi
     - [X] employee ID
     - [X] job title
     - [X] annual salary
-- create 'Submit' button after input tags
-- create a table in html
-- create table headings
-    - first name
-    - last name
-    - employee ID
-    - job title
-    - annual salary
+- [X] create 'Submit' button after input tags
+- [X] create a table in html
+- [X] create table headings
+    - [X] first name
+    - [X] last name
+    - [X] employee ID
+    - [X] job title
+    - [X] annual salary
 - hard code a few employee rows
     - add employee input values and delete button
 - create empty array for employee information in javascript

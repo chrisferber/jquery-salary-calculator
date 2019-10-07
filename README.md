@@ -16,12 +16,12 @@ Additional README details can be found [here](https://github.com/PrimeAcademy/gi
 - [X] use `console.log()` to test jquery.js and client.js sourced correctly
     - [X] change background color to confirm style.css sourced correctly
 - [X] create add employee `h3` tag
-- create inputs in index.html
-    - employee first name
-    - employee last name
-    - employee ID
-    - job title
-    - annual salary
+- [X] create inputs in index.html
+    - [X] employee first name
+    - [X] employee last name
+    - [X] employee ID
+    - [X] job title
+    - [X] annual salary
 - create 'Submit' button after input tags
 - create a table in html
 - create table headings

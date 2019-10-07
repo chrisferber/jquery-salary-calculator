@@ -9,13 +9,13 @@ Your project description goes here. What problem did you solve? How did you solv
 Additional README details can be found [here](https://github.com/PrimeAcademy/github-finalization-assignment).
 
 - [X] create index.html, client.js, and style.css files
-    - use html boiler plate
-    - create title and `h1` element
-- copy in jquery.js
-    - link in jquery.js, style.css, and client.js files
-- use `console.log()` to test jquery.js and client.js sourced correctly
-    - change background color to confirm style.css sourced correctly
-- create add employee `h3` tag
+    - [X] use html boiler plate
+    - [X] create title and `h1` element
+- [X] copy in jquery.js
+    - [X] link in jquery.js, style.css, and client.js files
+- [X] use `console.log()` to test jquery.js and client.js sourced correctly
+    - [X] change background color to confirm style.css sourced correctly
+- [X] create add employee `h3` tag
 - create inputs in index.html
     - employee first name
     - employee last name

@@ -56,8 +56,8 @@ function calculateMonthlyCost() {
     const totalCost = (Number(monthlyCost) + employeeAnnualSalaries[employeeAnnualSalaries.length - 1]) / 12;
     console.log(totalCost);
     
-    $('#MonthlyCostDisplay').val() + ('')
-    $('#MonthlyCostDisplay')
+    $('.costDisplayContainer').remove();
+    // $('#MonthlyCostDisplay').text(totalCost);
 }
 
 // $('#FirstNameInput', '#LastNameInput', '#IDInput', '#TitleInput', '#AnnualSalaryInput' ).text('');

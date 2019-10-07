@@ -42,9 +42,9 @@ Additional README details can be found [here](https://github.com/PrimeAcademy/gi
     - [X] push populated object to empty array
     - [X] empty input fields to placeholders after button click
     - [X] append inputs to DOM
-- create function that adds employee salaries to get total monthly costs
-    - add up all annual salaries
-    - divide by 12 to get monthly salaries
+- [X] create function that adds employee salaries to get total monthly costs
+    - [X] add up all annual salaries
+    - [X] divide by 12 to get monthly salaries
     - append to DOM
 - create function that turns background color of monthly costs to red if > $20,000
 - create delete button that removes employee from DOM

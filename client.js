@@ -1,8 +1,8 @@
 console.log('JS');
 console.log('this is our document: ', $(document));
 
-let employeeProfiles = [];
-let employeeAnnualSalaries = [];
+const employeeProfiles = [];
+const employeeAnnualSalaries = [];
 let monthlyCost = 0;
 
 $(document).ready(onReady);
@@ -31,11 +31,11 @@ function handleAddEmployeeClick() {
     employeeProfiles.push(inputProfile);
 
     employeeAnnualSalaries.push(annualSalaryIn);
-    
+
     console.log(employeeProfiles);
     console.log(employeeAnnualSalaries);
-    
-    
+
+
     $('.inputValues').val('');
 
     $('tbody').append(`<tr>
@@ -48,15 +48,28 @@ function handleAddEmployeeClick() {
         <button>Delete</button>
     </td>
 </tr>`);
-calculateMonthlyCost();
+    calculateMonthlyCost(annualSalaryIn);
 }
 
-function calculateMonthlyCost() {
+function calculateMonthlyCost(annualSalaryIn) {
     console.log('in calculateMonthlyCost');
-    const totalCost = (Number(monthlyCost) + employeeAnnualSalaries[employeeAnnualSalaries.length - 1]) / 12;
-    console.log(totalCost);
+    /*let totalCost = (Number(monthlyCost) + employeeAnnualSalaries[employeeAnnualSalaries.length - 1]);
+    let totalMonthlyCost = totalCost / 12;
+    monthlyCost = totalMonthlyCost;
+    console.log(monthlyCost);
+    console.log(totalMonthlyCost); 
+    for (let i = 0; i < employeeAnnualSalaries.length; i++) {
+        monthlyCost += employeeAnnualSalaries[i];
+        console.log(monthlyCost);
+        
+        
+    }*/
+    monthlyCost += annualSalaryIn / 12 ;
+    console.log(monthlyCost);
     
-    $('.costDisplayContainer').remove();
+   
+    $('#costDisplayContainer').empty('');
+    $('#costDisplayContainer').append(`<h3>Total Monthly: $${Math.floor(monthlyCost)}</h3>`);
     // $('#MonthlyCostDisplay').text(totalCost);
 }
 

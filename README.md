@@ -45,7 +45,7 @@ Additional README details can be found [here](https://github.com/PrimeAcademy/gi
 - [X] create function that adds employee salaries to get total monthly costs
     - [X] add up all annual salaries
     - [X] divide by 12 to get monthly salaries
-    - append to DOM
+    - [X] append to DOM
 - create function that turns background color of monthly costs to red if > $20,000
 - create delete button that removes employee from DOM
 - in style.css change object orientation to match wireframe

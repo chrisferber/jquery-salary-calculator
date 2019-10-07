@@ -30,7 +30,7 @@ function handleAddEmployeeClick() {
 
     employeeProfiles.push(inputProfile);
 
-    employeeAnnualSalaries.push(annualSalaryIn);
+    employeeAnnualSalaries.push(Number(annualSalaryIn));
 
     console.log(employeeProfiles);
     console.log(employeeAnnualSalaries);
@@ -64,13 +64,25 @@ function calculateMonthlyCost(annualSalaryIn) {
         
         
     }*/
-    monthlyCost += annualSalaryIn / 12 ;
+    monthlyCost += annualSalaryIn / 12;
     console.log(monthlyCost);
-    
-   
+
+
     $('#costDisplayContainer').empty('');
     $('#costDisplayContainer').append(`<h3>Total Monthly: $${Math.floor(monthlyCost)}</h3>`);
+
+
+    budgetDisplayBackgroundColor();
     // $('#MonthlyCostDisplay').text(totalCost);
+}
+
+function budgetDisplayBackgroundColor() {
+    if (monthlyCost > 20000) {
+        $('#costDisplayContainer').css('background-color', 'red');
+        $('#costDisplayContainer').css('color', 'white');
+    } else {
+        return 'Within budget';
+    }
 }
 
 // $('#FirstNameInput', '#LastNameInput', '#IDInput', '#TitleInput', '#AnnualSalaryInput' ).text('');

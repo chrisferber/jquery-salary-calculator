@@ -2,8 +2,10 @@
 
 ## Description
 
+Duration: First Weekend Project
+
 This application is used to take in employee information, display it in a table in the DOM, and calculate total monthly salary that is tracked on DOM from annual income.
-The annual salary input must be only numbers, no additional characters such as ($,). Employees added to the table may then be deleted by clicking the delete button for that respective table row.
+The annual salary input must be only numbers, no additional characters such as ($,). Employees added to the table may then be deleted by clicking the delete button for that respective table row. To see the fully functional site, please visit: https://github.com/chrisferber/jquery-salary-calculator.
 
 ## Flowcharting
 - [X] create index.html, client.js, and style.css files

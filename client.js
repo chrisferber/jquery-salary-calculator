@@ -18,7 +18,7 @@ function handleAddEmployeeClick() {
     const lastNameIn = $('#LastNameInput').val();
     const employeeIDIn = $('#IDInput').val();
     const titleIn = $('#TitleInput').val();
-    const annualSalaryIn = $('#AnnualSalaryInput').val();
+    const annualSalaryIn = Number($('#AnnualSalaryInput').val());
     const inputProfile = {
         firstName: firstNameIn,
         lastName: lastNameIn,
@@ -53,7 +53,8 @@ calculateMonthlyCost();
 
 function calculateMonthlyCost() {
     console.log('in calculateMonthlyCost');
-    
+    const totalCost = (Number(monthlyCost) + employeeAnnualSalaries[employeeAnnualSalaries.length - 1]) / 12;
+    console.log(totalCost);
     
     $('#MonthlyCostDisplay').val() + ('')
     $('#MonthlyCostDisplay')

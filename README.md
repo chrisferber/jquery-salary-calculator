@@ -30,8 +30,8 @@ Additional README details can be found [here](https://github.com/PrimeAcademy/gi
     - [X] employee ID
     - [X] job title
     - [X] annual salary
-- hard code a few employee rows
-    - add employee input values and delete button
+- [X] hard code a few employee rows
+    - [X] add employee input values and delete button
 - create empty array for employee information in javascript
 - create variable to hold total salary of all employees
 - create `OnReady` function

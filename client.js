@@ -32,6 +32,17 @@ function handleAddEmployeeClick() {
     console.log(employeeProfiles);
     
     $('.inputValues').val('');
+
+    $('tbody').append(`<tr>
+    <td>${firstNameIn}</td>
+    <td>${lastNameIn}</td>
+    <td>${employeeIDIn}</td>
+    <td>${titleIn}</td>
+    <td>${annualSalaryIn}</td>
+    <td>
+        <button>Delete</button>
+    </td>
+</tr>`);
 }
 
 // $('#FirstNameInput', '#LastNameInput', '#IDInput', '#TitleInput', '#AnnualSalaryInput' ).text('');
